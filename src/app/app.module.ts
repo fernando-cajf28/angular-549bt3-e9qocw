@@ -15,15 +15,15 @@ import { ProductAlertsComponent } from './product-alerts/product-alerts.componen
     ReactiveFormsModule,
     RouterModule.forRoot([
       { path: '', component: ProductListComponent },
-      { path: 'product-details/:productId ', component: ProductListComponent },
+      { path: 'product-details/:productId ', component: ProductDetailsComponent },
     ])
   ],
   declarations: [
     AppComponent,
     TopBarComponent,
     ProductListComponent,
-    ProductAlertsComponent,
     ProductDetailsComponent,
+    ProductAlertsComponent,
   ],
   bootstrap: [
     AppComponent
